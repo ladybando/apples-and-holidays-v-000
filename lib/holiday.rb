@@ -76,7 +76,7 @@ def all_holidays_with_bbq(holiday_hash)
       holiday.keys.flatten
       if supplies.include?("BBQ")
         holidays_with_bbqs << holidays
-        binding.pry
+        #binding.pry
       end
     end
   end
