@@ -33,13 +33,7 @@ end
 def add_supply_to_memorial_day(holiday_hash, supply)
   # again, holiday_hash is the same as the ones above
   # add the second argument to the memorial day array
-  holiday_hash.each do |season, holiday|
-    holiday.each do |supply|
-      supply.each do|add_supply|
-        binding.pry
-        add_supply << "Grill"
-      #else supply == :spring
-        supply << "Table Cloth"
+  holiday_hash[:spring][:memorial_day] <<"Grill"
 end
     end
   end
