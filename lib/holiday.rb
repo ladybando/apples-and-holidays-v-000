@@ -58,8 +58,8 @@ def all_supplies_in_holidays(holiday_hash)
   # Summer:
   #   Fourth Of July: Fireworks, BBQ
   # etc.
+  holiday_hash.split
   holiday_hash.each do |season, holiday|
-    holiday_hash.split
     binding.pry
     puts "#{season}: #{holiday}"
   end
