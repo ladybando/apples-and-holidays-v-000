@@ -36,8 +36,8 @@ def add_supply_to_memorial_day(holiday_hash, supply)
   holiday_hash.each do |season, holiday|
     holiday.each do |supply|
       supply.each do|add_supply|
-        add_supply << "Grill"
         binding.pry
+        add_supply << "Grill"
       #else supply == :spring
         supply << "Table Cloth"
 end
